@@ -6,6 +6,7 @@ class SecretsController < ApplicationController
     if :current_user
       redirect_to 'secrets#new'
     else
+      
     end
   end
 
