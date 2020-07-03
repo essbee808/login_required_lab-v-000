@@ -10,7 +10,7 @@ class SecretsController < ApplicationController
 
   def show
     if session[:name].present?
-      redirect_to "/secret"
+      
     else
       redirect_to "/login"
     end
