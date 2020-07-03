@@ -3,6 +3,7 @@ class SecretsController < ApplicationController
   skip_before_action :require_login, only: [:show]
 
   def show
+    
     redirect_to "/login"
   end
 
