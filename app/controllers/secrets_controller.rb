@@ -3,7 +3,9 @@ class SecretsController < ApplicationController
   skip_before_action :require_login, only: [:show]
 
   def show
-    
+    if :current_user
+    else
+    end
   end
 
   def index
