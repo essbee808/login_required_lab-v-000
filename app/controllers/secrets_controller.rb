@@ -13,9 +13,6 @@ class SecretsController < ApplicationController
     end
   end
 
-  def index
-  end
-
   def create
   end
 
