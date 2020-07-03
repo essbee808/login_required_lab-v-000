@@ -1,14 +1,13 @@
 class SecretsController < ApplicationController
   before_action :require_login
 
-  def new
+  def show
+  end
+
+  def index
   end
 
   def create
-  end
-
-  def show
-    @secret = S
   end
 
   def require_login
