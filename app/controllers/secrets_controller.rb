@@ -10,6 +10,7 @@ class SecretsController < ApplicationController
 
   def show
     if session[:name]
+      
     else
     end
   end
