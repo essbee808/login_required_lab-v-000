@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   get '/login' => 'sessions#new'
   post '/login' => 'sessions#create'
   post '/logout' => 'sessions#destroy'
-  posts '/secret' => 'secrets#show'
+  post '/secret' => 'secrets#show'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
