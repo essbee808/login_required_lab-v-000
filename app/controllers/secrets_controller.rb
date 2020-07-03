@@ -9,8 +9,8 @@ class SecretsController < ApplicationController
   end
 
   def show
-    if current_user
-      
+    if :current_user
+
     else
       redirect_to '/login'
     end
