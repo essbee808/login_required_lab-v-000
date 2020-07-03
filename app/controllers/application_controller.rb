@@ -6,5 +6,5 @@ class ApplicationController < ActionController::Base
   def current_user
     session[:name] == params[:name]
   end
-  
+
 end
