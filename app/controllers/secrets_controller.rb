@@ -9,7 +9,7 @@ class SecretsController < ApplicationController
   end
 
   def show
-    if current_user == params[:name]
+    if current_user
       
     else
       redirect_to '/login'
