@@ -2,7 +2,9 @@ class SecretsController < ApplicationController
   before_action :require_login
 
   def show
-    if 
+    if current_user
+    else
+    end
   end
 
   def index
