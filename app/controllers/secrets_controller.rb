@@ -6,7 +6,7 @@ class SecretsController < ApplicationController
     if :current_user
       redirect_to 'secrets#new'
     else
-      
+      redirect_to '/login'
     end
   end
 
