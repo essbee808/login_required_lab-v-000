@@ -3,8 +3,6 @@ class SecretsController < ApplicationController
   skip_before_action :require_login, only: [:show]
 
   def show
-
-  
     if current_user == params[:name]
       redirect_to '/secret'
     else
