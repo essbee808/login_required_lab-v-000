@@ -4,7 +4,7 @@ class SecretsController < ApplicationController
 
   def show
     if :current_user
-      redirect_to 'secrets#new'
+      redirect_to '/'
     else
       redirect_to '/login'
     end
