@@ -4,6 +4,7 @@ class SecretsController < ApplicationController
 
   def show
     if :current_user
+      
     else
     end
   end
