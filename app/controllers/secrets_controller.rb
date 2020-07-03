@@ -4,7 +4,7 @@ class SecretsController < ApplicationController
 
   def show
     if current_user == params[:name]
-      redirect_to '/secret'
+      render :show
     else
       redirect_to '/login'
     end
