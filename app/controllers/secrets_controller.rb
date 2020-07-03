@@ -12,7 +12,7 @@ class SecretsController < ApplicationController
     if session[:name]
       redirect_to "/"
     else
-      redirect_to "/login"
+      redirect_to "/logout"
     end
   end
 
