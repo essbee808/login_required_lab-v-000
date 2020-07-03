@@ -4,7 +4,11 @@ class SecretsController < ApplicationController
   def new
   end
 
+  def create
+  end
+
   def show
+    @secret = S
   end
 
   def require_login
