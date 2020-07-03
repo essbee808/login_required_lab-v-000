@@ -8,7 +8,6 @@ class SecretsController < ApplicationController
   def create
   end
 
-
   def show
     if current_user == params[:name]
       render :show
